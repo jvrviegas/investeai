@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Invest project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-    <link rel="stylesheet" type="text/css" href="styles/financial.css">
-    <link rel="stylesheet" type="text/css" href="styles/financial_responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('styles/bootstrap4/bootstrap.min.css')}}">
+    <link href="{{asset('plugins/font-awesome-4.7.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{asset('plugins/OwlCarousel2-2.2.1/owl.carousel.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('plugins/OwlCarousel2-2.2.1/owl.theme.default.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('plugins/OwlCarousel2-2.2.1/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('styles/financial.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('styles/financial_responsive.css')}}">
 </head>
 <body>
 
@@ -29,7 +29,23 @@
 
                 <!-- Slider Item -->
                 <div class="owl-item">
-                    <div class="slider_background" style="background-image:url(images/financial.jpg)"></div>
+                    <div class="slider_background" style="background-image:url({{asset('images/financial.jpg')}})"></div>
+                    <div class="container fill_height">
+                        <div class="row fill_height">
+                            <div class="col fill_height">
+                                <div class="home_slider_content">
+                                    <h1>Invista seu dinheiro para o futuro</h1>
+                                    <div class="home_slider_text">Aqui lhe informamos a melhor opção de investimento para que seu dinheiro renda mais.</div>
+                                    <div class="link_button home_slider_button"><a href="#">Leia mais</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{--<!-- Slider Item -->
+                <div class="owl-item">
+                    <div class="slider_background" style="background-image:url({{asset('images/financial.jpg')}})"></div>
                     <div class="container fill_height">
                         <div class="row fill_height">
                             <div class="col fill_height">
@@ -45,7 +61,7 @@
 
                 <!-- Slider Item -->
                 <div class="owl-item">
-                    <div class="slider_background" style="background-image:url(images/financial.jpg)"></div>
+                    <div class="slider_background" style="background-image:url({{asset('images/financial.jpg')}})"></div>
                     <div class="container fill_height">
                         <div class="row fill_height">
                             <div class="col fill_height">
@@ -61,7 +77,7 @@
 
                 <!-- Slider Item -->
                 <div class="owl-item">
-                    <div class="slider_background" style="background-image:url(images/financial.jpg)"></div>
+                    <div class="slider_background" style="background-image:url({{asset('images/financial.jpg')}})"></div>
                     <div class="container fill_height">
                         <div class="row fill_height">
                             <div class="col fill_height">
@@ -73,28 +89,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Slider Item -->
-                <div class="owl-item">
-                    <div class="slider_background" style="background-image:url(images/financial.jpg)"></div>
-                    <div class="container fill_height">
-                        <div class="row fill_height">
-                            <div class="col fill_height">
-                                <div class="home_slider_content">
-                                    <h1>Invest your money for the future</h1>
-                                    <div class="home_slider_text">Donec vel ante rhoncus, posuere nulla quis, interdum nisi. Vestibulum laoreet lacinia diam, eget blandit sem gravida at.</div>
-                                    <div class="link_button home_slider_button"><a href="#">read more</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>--}}
 
             </div>
 
-            <div class="home_slider_nav home_slider_prev d-flex flex-column align-items-center justify-content-center"><img src="images/arrow_l.png" alt=""></div>
-            <div class="home_slider_nav home_slider_next d-flex flex-column align-items-center justify-content-center"><img src="images/arrow_r.png" alt=""></div>
+            {{--<div class="home_slider_nav home_slider_prev d-flex flex-column align-items-center justify-content-center"><img src="{{asset('images/arrow_l.png')}}" alt=""></div>
+            <div class="home_slider_nav home_slider_next d-flex flex-column align-items-center justify-content-center"><img src="{{asset('images/arrow_r.png')}}" alt=""></div>--}}
 
         </div>
 
@@ -111,23 +111,21 @@
                                 <div class="logo_container">
                                     <div class="logo">
                                         <a href="#">
-                                            <div class="logo_line_1"><span>in</span>vest</div>
-                                            <div class="logo_line_2">Financial</div>
-                                            <div class="logo_img"><img src="images/logo.png" alt=""></div>
+                                            <div class="logo_line_1">Investe<span>Aí</span></div>
+                                            <div class="logo_line_2">O futuro do seu dinheiro está aqui!</div>
+                                            <div class="logo_img"><img src="{{asset('images/investeai-logo.png')}}" alt=""></div>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="top_bar_content ml-auto">
                                     <div class="main_menu_contact">
-                                        <div class="main_menu_phone"><img src="images/phone-call.svg" class="svg" alt=""><span>+825 25 800 800</span></div>
-                                        <div class="main_menu_email"><img src="images/envelope.svg" class="svg" alt=""><span>office@invest.com</span></div>
+                                        <div class="main_menu_phone"><img src="{{asset('images/phone-call.svg')}}" class="svg" alt=""><span>(98) 3133-4245</span></div>
+                                        <div class="main_menu_email"><img src="{{asset('images/envelope.svg')}}" class="svg" alt=""><span>contato@investeai.com.br</span></div>
                                     </div>
                                     <div class="main_menu_social">
                                         <ul>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div>
@@ -149,35 +147,15 @@
                             <div class="main_menu_container d-flex flex-row align-items-center justify-content-start">
                                 <div class="main_menu_content">
                                     <ul class="main_menu_list">
-                                        <li class="active hassubs">
-                                            <a href="#">home
-                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        <li><a href="{{url('/')}}">Página Inicial
+                                                <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                      width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-													<g>
-                                                        <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                    </g>
-												</svg>
-                                            </a>
-                                            <ul>
-                                                <li><a href="index.html">Blockchain
-                                                        <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
 														<g>
                                                             <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
                                                         </g>
 													</svg>
-                                                    </a></li>
-                                                <li><a href="#">Financial
-                                                        <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="about.html">about us
+                                            </a></li>
+                                        <li><a href="{{url('/investor_profile')}}">Perfil de Investidor
                                                 <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                      width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
 												<g>
@@ -185,127 +163,7 @@
                                                 </g>
 											</svg>
                                             </a></li>
-                                        <li class="hassubs">
-                                            <a href="services.html">services
-                                                <svg version="1.1" id="Layer_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                     width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-													<g>
-                                                        <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                    </g>
-												</svg>
-                                            </a>
-                                            <ul>
-                                                <li><a href="#">Menu Item
-                                                        <svg version="1.1" id="Layer_6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                                <li><a href="#">Menu Item
-                                                        <svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                                <li><a href="#">Menu Item
-                                                        <svg version="1.1" id="Layer_8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                                <li><a href="#">Menu Item
-                                                        <svg version="1.1" id="Layer_9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="hassubs">
-                                            <a href="services.html">portfolio
-                                                <svg version="1.1" id="Layer_10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                     width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-													<g>
-                                                        <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                    </g>
-												</svg>
-                                            </a>
-                                            <ul>
-                                                <li><a href="#">Menu Item
-                                                        <svg version="1.1" id="Layer_11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                                <li><a href="#">Menu Item
-                                                        <svg version="1.1" id="Layer_12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                                <li><a href="#">Menu Item
-                                                        <svg version="1.1" id="Layer_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                                <li><a href="#">Menu Item
-                                                        <svg version="1.1" id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                             width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-														<g>
-                                                            <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                        </g>
-													</svg>
-                                                    </a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">blog
-                                                <svg version="1.1" id="Layer_15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                     width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-												<g>
-                                                    <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                </g>
-											</svg>
-                                            </a></li>
-                                        <li><a href="#">contact
-                                                <svg version="1.1" id="Layer_16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                     width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
-												<g>
-                                                    <polyline class="arrow_d" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="0.022,-0.178 4.5,4.331 9.091,-0.275 	"/>
-                                                </g>
-											</svg>
-                                            </a></li>
                                     </ul>
-                                </div>
-                                <div class="main_menu_contact ml-auto">
-                                    <div class="main_menu_search">
-                                        <div class="main_menu_search_button">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 512 512" enable-background="new 0 0 512 512" width="15px" height="15px">
-                                                <g>
-                                                    <path class="mag_path" d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z" fill="#f4f4f8"/>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="main_menu_search_content">
-                                            <form action="#">
-                                                <input class="search_input" type="search" placeholder="Keyword" required="required">
-                                            </form>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -316,25 +174,12 @@
             <!-- Menu -->
 
             <div class="menu">
-                <div class="menu_register_login">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="menu_register_login_content d-flex flex-row align-items-center justify-content-end">
-                                    <div class="register"><a href="#">register</a></div>
-                                    <div class="login"><a href="#">login</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
                 <ul class="menu_list">
                     <li class="menu_item">
                         <div class="container">
                             <div class="row">
                                 <div class="col">
-                                    <a href="#">home</a>
+                                    <a href="#">Página Inicial</a>
                                 </div>
                             </div>
                         </div>
@@ -343,43 +188,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col">
-                                    <a href="about.html">about us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="menu_item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <a href="listings.html">services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="menu_item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <a href="news.html">portfolio</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="menu_item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <a href="contact.html">blog</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="menu_item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <a href="contact.html">contact</a>
+                                    <a href="{{url('/investor_profile')}}">Perfil de Investidor</a>
                                 </div>
                             </div>
                         </div>
@@ -399,10 +208,10 @@
                 <div class="col-lg-3 features_col">
                     <div class="features_content">
                         <div class="features_title_container">
-                            <div class="features_subtitle">take a look at our</div>
-                            <div class="features_title">The Features</div>
-                            <div class="features_text">Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem. Morbi ut dapibus dui. Sed ut iaculis elit.</div>
-                            <div class="link_button features_button"><a href="#">read more</a></div>
+                            <div class="features_subtitle">dê uma olhada nas nossas</div>
+                            <div class="features_title">Vantagens</div>
+                            <div class="features_text">Muito mais que apenas um perfil de investidor, um </div>
+                            <div class="link_button features_button"><a href="#">mais informações</a></div>
                         </div>
                     </div>
                 </div>
@@ -410,11 +219,11 @@
                 <!-- Features Item -->
                 <div class="col-lg-3 features_col">
                     <div class="features_item">
-                        <div class="features_image"><img src="images/features_1.jpg" alt=""></div>
+                        <div class="features_image"><img src="{{asset('images/features_1.jpg')}}" alt=""></div>
                         <div class="features_item_content">
-                            <div class="features_item_title"><a href="#">We take care of you</a></div>
+                            <div class="features_item_title"><a href="#">Nós cuidamos de você</a></div>
                             <div class="features_item_text">
-                                <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem.</p>
+                                <p>Aqui o seu dinheiro e esforço são valorizados, tenha as melhores indicações de investimento para o seu perfil.</p>
                             </div>
                         </div>
                     </div>
@@ -423,11 +232,11 @@
                 <!-- Features Item -->
                 <div class="col-lg-3 features_col">
                     <div class="features_item">
-                        <div class="features_image"><img src="images/features_2.jpg" alt=""></div>
+                        <div class="features_image"><img src="{{asset('images/features_2.jpg')}}" alt=""></div>
                         <div class="features_item_content">
-                            <div class="features_item_title"><a href="#">Fast support & updates</a></div>
+                            <div class="features_item_title"><a href="#">Nós cuidamos de você</a></div>
                             <div class="features_item_text">
-                                <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem.</p>
+                                <p>Aqui o seu dinheiro e esforço são valorizados, tenha as melhores indicações de investimento para o seu perfil.</p>
                             </div>
                         </div>
                     </div>
@@ -436,16 +245,15 @@
                 <!-- Features Item -->
                 <div class="col-lg-3 features_col">
                     <div class="features_item">
-                        <div class="features_image"><img src="images/features_3.jpg" alt=""></div>
+                        <div class="features_image"><img src="{{asset('images/features_3.jpg')}}" alt=""></div>
                         <div class="features_item_content">
-                            <div class="features_item_title"><a href="#">Well documented</a></div>
+                            <div class="features_item_title"><a href="#">Nós cuidamos de você</a></div>
                             <div class="features_item_text">
-                                <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem.</p>
+                                <p>Aqui o seu dinheiro e esforço são valorizados, tenha as melhores indicações de investimento para o seu perfil.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -457,7 +265,7 @@
             <div class="row">
                 <div class="col">
                     <div class="cta_content text-center d-flex flex-row align-items-center justify-content-center">
-                        <div class="cta_text"><a href="#">Make a good investment today!</a></div>
+                        <div class="cta_text"><a href="{{route('investorProfile')}}">Descubra seu perfil de investidor!</a></div>
                     </div>
                 </div>
             </div>
@@ -467,75 +275,13 @@
     <!-- Footer -->
 
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Column -->
-                <div class="col-lg-3 footer_col">
-                    <div class="footer_about">
-                        <div class="logo_container footer_logo">
-                            <div class="logo">
-                                <a href="#">
-                                    <div class="logo_line_1"><span>in</span>vest</div>
-                                    <div class="logo_line_2">Blockchain</div>
-                                    <div class="logo_img"><img src="images/logo.png" alt=""></div>
-                                </a>
-                            </div>
-                        </div>
-                        <p class="footer_about_text">Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem. Morbi ut dapibus dui. Sed ut iaculis elit. Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec.</p>
-                    </div>
-                </div>
-
-                <!-- Footer Column -->
-                <div class="col-lg-3 footer_col">
-                    <div class="footer_links">
-                        <div class="footer_title">Useful Links</div>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Consulting</a></li>
-                            <li><a href="#">Commodities</a></li>
-                            <li><a href="#">Insurance</a></li>
-                            <li><a href="#">Trades</a></li>
-                            <li><a href="#">Planning</a></li>
-                            <li><a href="#">Finance</a></li>
-                            <li><a href="#">Crypto</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Footer Column -->
-                <div class="col-lg-6 footer_col">
-                    <div class="footer_newsletter">
-                        <div class="footer_title">Subscribe to our newsletter</div>
-                        <form action="#" class="footer_newsletter_form">
-                            <input type="email" class="footer_newsletter_input" placeholder="Your E-mail" required="required">
-                            <button class="footer_newsletter_button" type="submit">subscribe</button>
-                        </form>
-                        <div class="footer_newsletter_text">Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem. Morbi ut dapibus dui. Sed ut iaculis elit. Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec.</div>
-                        <div class="footer_social">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
         <div class="copyright">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 order-md-1 order-2">
                         <div class="copyright_content d-flex flex-row align-items-center justify-content-start">
                             <div class="cr"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | <a href="#" target="_blank">Investe Aí</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
                         </div>
                     </div>
@@ -543,27 +289,23 @@
                 <div class="col-md-8 order-md-2 order-1">
                     <nav class="footer_nav d-flex flex-row align-items-center justify-content-md-end">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Página Inicial</a></li>
+                            <li><a href="#">Perfil de Investidor</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
-</div>
-</footer>
+    </footer>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+<script src="{{asset('styles/bootstrap4/popper.js')}}"></script>
+<script src="{{asset('styles/bootstrap4/bootstrap.min.js')}}"></script>
+<script src="{{asset('plugins/OwlCarousel2-2.2.1/owl.carousel.js')}}"></script>
+<script src="{{asset('plugins/easing/easing.js')}}"></script>
+<script src="{{asset('plugins/parallax-js-master/parallax.min.js')}}"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-<script src="js/financial_custom.js"></script>
+<script src="{{asset('js/financial_custom.js')}}"></script>
 </body>
 </html>

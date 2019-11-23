@@ -1,7 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335b1937-ffe6-44f8-8852-06acc0e74ca9" name="Default Changelist" comment="" />
+    <list default="true" id="335b1937-ffe6-44f8-8852-06acc0e74ca9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/fonts/GIL_____.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/gil.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/gil_b.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/arrow_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/arrow_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/call.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/envelope.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/features_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/financial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/investeai-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/phone-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/service_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/service_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/service_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/service_4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/service_5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/service_6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services_background_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/financial_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/services_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles/bootstrap4/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles/bootstrap4/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles/financial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles/financial_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles/services.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles/services_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/investor_profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +110,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -101,10 +201,24 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1TzoSBL61jTXh7At6sORYyoUOWw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/plugins" />
+      <recent name="$PROJECT_DIR$/public/styles" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,11 +253,22 @@
       <workItem from="1574472907143" duration="24000" />
       <workItem from="1574472945458" duration="90000" />
       <workItem from="1574473049505" duration="79000" />
-      <workItem from="1574473143859" duration="785000" />
+      <workItem from="1574473143859" duration="8167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

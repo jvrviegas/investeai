@@ -13,4 +13,8 @@
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
+
+Route::get('/investor_profile', function () {
+    return view('investor_profile');
+})->name('investorProfile');
